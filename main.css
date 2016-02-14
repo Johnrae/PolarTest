@@ -1,3 +1,7 @@
+body {
+  background: #FFA033;
+}
+
 .navbar {
   background: #FFA033;
   border-radius: 0px;
@@ -5,10 +9,12 @@
   margin-bottom: 0px;
   padding-bottom: 10px;
 }
- #brand {
+
+#brand {
   width: 150px;
   margin: 10px;
  }
+
 .navbar-default .navbar-nav>li>a {
   text-decoration: none;
   color: #FFF;
@@ -17,6 +23,14 @@
   font-size: 20px;
   vertical-align: middle;
 }
+.navbar-default .navbar-nav>li>a:hover {
+  color: #FFA033;
+  background-color: #FFF;
+}
+
+.wrapper {
+  height: 1000px;
+}
 
 .jordan {
   background: 
@@ -24,10 +38,25 @@
     no-repeat;
   background-size: cover;
   text-align: center;
+  height: 900px;
+}
+
+.jordan .wrapper>img {
+  padding-top: 150px;
+}
+
+.jordan .wrapper>a>button {
+  padding: 10px 20px;
+  margin-top: 50px;
+}
+
+#arrow{
+  padding-top: 50px;
+  width: 10%;
 }
 
 #about {
-  
+  background: #FFF;
 }
 
 .info {
