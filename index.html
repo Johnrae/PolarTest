@@ -12,22 +12,22 @@
 </head>
 <body>
 
-  <div class="nav">
-    <img src="assets/logo-nav.png" alt="">
+  <nav class="navbar navbar-default">
+    <img class="navbar-brand" src="assets/logo-nav.png" alt="">
     <ul>
-      <li><a href="">About</a></li>
-      <li><a href="">The Cookies</a></li>
-      <li><a href="">Get Cookies</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#the-cookies">The Cookies</a></li>
+      <li><a href="#get">Get Cookies</a></li>
     </ul>
-  </div>
+  </nav>
 
   <div class="jordan">
     <img src="assets/logo-header.png" alt="">
-    <button>Get The Cookies</button>
+    <a href="#get"><button>Get The Cookies</button></a>
     <img src="assets/arrow.png" alt="">
   </div>
   
-  <div class="about">
+  <div id="about">
     <img src="assets/dunk-howard.jpg" alt="">
     <div class="info">
       <h2>The greatest dunk of all time</h2>
@@ -35,7 +35,7 @@
     </div>
   </div>
 
-  <div class="the-cookies">
+  <div id="the-cookies">
     <div class="cookie">
       <img src="assets/cookie-chip.jpg">
       <h2>The Chip</h2>
@@ -56,7 +56,7 @@
     </div>
   </div>
 
-  <div class="get">
+  <div id="get">
     <h1>SIGN UP FOR COOKIES!!</h1>
     <div class="signup">
       <input type="email" placeholder="EMAIL ADDRESS">

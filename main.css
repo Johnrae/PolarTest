@@ -1,0 +1,26 @@
+.navbar {
+  background: #FFA033;
+  border-radius: 0px;
+  border-color: #FFA033;
+}
+
+.jordan {
+  background: 
+    url(assets/background-header.jpg)
+    no-repeat;
+  background-size: cover;
+}
+
+#the-cookies {
+  background: 
+    url(assets/background-cookies.jpg)
+    no-repeat;
+  background-size: cover;
+}
+
+#get {
+  background: 
+    url(assets/dunk-lebron.png)
+    no-repeat
+    #FFA033;
+}
