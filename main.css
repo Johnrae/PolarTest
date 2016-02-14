@@ -2,6 +2,20 @@
   background: #FFA033;
   border-radius: 0px;
   border-color: #FFA033;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+ #brand {
+  width: 150px;
+  margin: 10px;
+ }
+.navbar-default .navbar-nav>li>a {
+  text-decoration: none;
+  color: #FFF;
+  margin: 10px 15px 0 0;
+  font-weight: 600;
+  font-size: 20px;
+  vertical-align: middle;
 }
 
 .jordan {
@@ -9,6 +23,15 @@
     url(assets/background-header.jpg)
     no-repeat;
   background-size: cover;
+  text-align: center;
+}
+
+#about {
+  
+}
+
+.info {
+  display: inline-block;
 }
 
 #the-cookies {
@@ -18,9 +41,24 @@
   background-size: cover;
 }
 
+.cookie {
+  background: #FFF;
+  display: inline-block;
+  text-align: center;
+}
+
 #get {
   background: 
     url(assets/dunk-lebron.png)
     no-repeat
     #FFA033;
+}
+
+button {
+  background: #FFA033;
+  padding: 10px;
+  color: #FFF;
+  border: none;
+  font-size: 30px;
+  font-style: italic;
 }

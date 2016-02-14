@@ -13,25 +13,40 @@
 <body>
 
   <nav class="navbar navbar-default">
-    <img class="navbar-brand" src="assets/logo-nav.png" alt="">
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#the-cookies">The Cookies</a></li>
-      <li><a href="#get">Get Cookies</a></li>
-    </ul>
+    <div class="navbar-header container-fluid">
+      <img src="assets/logo-nav.png" alt="" id="brand">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#drop" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="drop">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#the-cookies">THE COOKIES</a></li>
+        <li><a href="#get">GET COOKIES</a></li>
+      </ul>
+    </div>
   </nav>
 
   <div class="jordan">
-    <img src="assets/logo-header.png" alt="">
-    <a href="#get"><button>Get The Cookies</button></a>
-    <img src="assets/arrow.png" alt="">
+    <div class="wrapper">
+      <img src="assets/logo-header.png" alt="" class="img-responsive center-block">
+      <br>
+      <a href="#get"><button>GET THE COOKIES</button></a>
+      <br>
+      <img src="assets/arrow.png" alt="" class="img-responsive center-block">
+    </div>
   </div>
   
   <div id="about">
-    <img src="assets/dunk-howard.jpg" alt="">
-    <div class="info">
-      <h2>The greatest dunk of all time</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium laudantium quaerat, voluptate quod a esse cum sapiente veniam, ex consequuntur harum! Dolores nobis maxime magnam eaque, eligendi ea quasi fugit.</p>
+    <div class="wrapper">
+      <img src="assets/dunk-howard.jpg" alt="">
+      <div class="info">
+        <h2>The greatest dunk of all time</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium laudantium quaerat, voluptate quod a esse cum sapiente veniam, ex consequuntur harum! Dolores nobis maxime magnam eaque, eligendi ea quasi fugit.</p>
+      </div>
     </div>
   </div>
 
