@@ -1,6 +1,36 @@
 body {
   background: #FFA033;
 }
+h1 {
+  color: #FFF;
+}
+
+h2 {
+  color: #FFA033;
+  font-size: 3.6em;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+h5 {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 25px auto;
+
+}
+
+button {
+  background: #FFA033;
+  padding: 10px;
+  color: #FFF;
+  border: none;
+  font-size: 30px;
+  font-style: italic;
+}
 
 .navbar {
   background: #FFA033;
@@ -23,6 +53,7 @@ body {
   font-size: 20px;
   vertical-align: middle;
 }
+
 .navbar-default .navbar-nav>li>a:hover {
   color: #FFA033;
   background-color: #FFF;
@@ -51,8 +82,12 @@ body {
 }
 
 #arrow{
-  padding-top: 50px;
+  padding-top: 75px;
   width: 10%;
+}
+
+.container {
+  margin-top: 200px;
 }
 
 #about {
@@ -70,24 +105,39 @@ body {
   background-size: cover;
 }
 
+.cookie-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 250px;
+}
+
 .cookie {
   background: #FFF;
-  display: inline-block;
   text-align: center;
+  margin-right: 50px;
+  padding: 40px;
+  width: 350px;
+}
+
+.cookie button {
+  width: 100%;
 }
 
 #get {
-  background: 
-    url(assets/dunk-lebron.png)
-    no-repeat
-    #FFA033;
+  text-align: center;
 }
 
-button {
-  background: #FFA033;
-  padding: 10px;
-  color: #FFF;
-  border: none;
-  font-size: 30px;
-  font-style: italic;
+.get-content {
+  background: 
+    url(assets/dunk-lebron.png)
+    center
+    no-repeat
+    padding-box;
+  background-size: contain;
+  width: 75%;
+  height: 75%;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding-top: 150px;
+  vertical-align: center;
 }
