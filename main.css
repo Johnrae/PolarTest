@@ -17,13 +17,14 @@ h2 {
 }
 
 h4 {
-  font-size: 4em;
+  font-size: 3.5em;
   line-height: 1.5em;
+  font-weight: 400;
 }
 
 h5 {
-  font-size: 3em;
-  font-weight: 400;
+  font-size: 2.5em;
+  font-weight: 300;
   margin: 25px auto;
 
 }
@@ -209,6 +210,7 @@ button:hover {
   #mc_embed_signup input.email {
     width: 100%;
     font-size: 2em;
+    margin: 0;
   }
   .container {
     margin-top: 100px;
