@@ -33,6 +33,11 @@ button {
   border: none;
   font-size: 30px;
   font-style: italic;
+  transition: 0.4s ease background;
+}
+
+button:hover {
+  background: #F28300;
 }
 
 .navbar {
@@ -55,6 +60,7 @@ button {
   font-weight: 600;
   font-size: 20px;
   vertical-align: middle;
+  transition: 0.4s ease background;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
