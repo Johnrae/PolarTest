@@ -1,26 +1,28 @@
 body {
   background: #FFA033;
+  font-size: 62.5%;
 }
+
 h1 {
   color: #FFF;
-  font-size: 5em;
+  font-size: 11em;
   font-weight: 600;
   margin-bottom: 30px;
 }
 
 h2 {
   color: #FFA033;
-  font-size: 3.6em;
+  font-size: 7em;
   font-weight: 600;
 }
 
 h4 {
-  font-size: 2em;
+  font-size: 4em;
   line-height: 1.5em;
 }
 
 h5 {
-  font-size: 1.5em;
+  font-size: 3em;
   font-weight: 400;
   margin: 25px auto;
 
@@ -117,7 +119,6 @@ button:hover {
 .cookie-wrapper {
   display: flex;
   justify-content: center;
-  padding-top: 200px;
   flex-wrap: wrap;
 }
 
@@ -131,6 +132,21 @@ button:hover {
 
 .cookie button {
   width: 100%;
+}
+
+@media (max-width: 585px){
+  .cookie-wrapper {
+    margin-top: 30px;
+  }
+
+  .cookie {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .cookie button {
+    font-size: 3em;
+  }
 }
 
 #get {
@@ -183,4 +199,18 @@ button:hover {
   color: #FFF;
   background-color: #FFA033;
   border: 2px solid #F28300;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 5em;
+  }
+
+  #mc_embed_signup input.email {
+    width: 100%;
+    font-size: 2em;
+  }
+  .container {
+    margin-top: 100px;
+  }
 }
