@@ -3,6 +3,9 @@ body {
 }
 h1 {
   color: #FFF;
+  font-size: 5em;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -108,15 +111,16 @@ button {
 .cookie-wrapper {
   display: flex;
   justify-content: center;
-  padding-top: 250px;
+  padding-top: 200px;
+  flex-wrap: wrap;
 }
 
 .cookie {
   background: #FFF;
   text-align: center;
-  margin-right: 50px;
-  padding: 40px;
-  width: 350px;
+  margin-right: 3%;
+  padding: 2%;
+  width: 25%;
 }
 
 .cookie button {
@@ -140,4 +144,37 @@ button {
   margin-top: 150px;
   padding-top: 150px;
   vertical-align: center;
+}
+
+#mc_embed_signup{
+  background: transparent;
+  font:14px Helvetica,Arial,sans-serif; 
+  width:100%;
+}
+
+#mc_embed_signup input.email {
+  border: 1px solid #FFF;
+  font-size: 3em;
+  height: 100px;
+  width: 55%;
+  margin-right: -10px;
+  padding: 20px;
+  border-radius: 0px;
+}
+
+#mc_embed_signup .button {
+  background: #F28300;
+  border-radius: 0px;
+  border: 2px solid #F28300;
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  font-style: italic;
+  font-size: 2em;
+}
+
+#mc_embed_signup .button:hover {
+  color: #FFF;
+  background-color: #FFA033;
+  border: 2px solid #F28300;
 }
